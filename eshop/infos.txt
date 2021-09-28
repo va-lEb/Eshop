@@ -1,0 +1,47 @@
+PROJET: eshop
+-------
+
+
+ARBORESCENCE du projet :
+------------------------
+
+- eshop/
+    - inc/
+        - header.inc.php
+        - nav.inc.php
+        - footer.inc.php
+        - init.inc.php (connexion BDD, constantes, outils php pour le bon fonctionnement du projet)
+        - functions.inc.php (nos fonctions)
+
+    - assets/ (les ressources statiques)
+        - css/
+            - style.css
+        - js/
+            - script.js
+        - fonts/
+            ... pour rajouter des polices en local
+        - img/
+            ... les images de notre projet
+        - img_articles/
+            ... les images de nos articles
+
+    - admin/
+        - gestion_articles.php
+        ... les pages d'administration (outils de gestion pour le propriétaire du site)
+
+    - SQL/
+        ... pour conserver nos exports, modélisation ...
+
+    - template.php
+    - infos.txt
+
+
+
+Etapes : 
+--------
+- Arborescence du projet
+- Creation de la BDD
+- Creation du template de base
+- Page inscription : formulaire + controle + enregistrement
+- Page connexion : formulaire + controle + connexion
+- Page profil : affichage des données utilisateur 
